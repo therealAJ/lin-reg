@@ -51,8 +51,3 @@ def Linear_Regression(X, Y, alpha, theta, iter):
         opt_theta = gradient_descent(X, y, theta, m, alpha)
         theta = opt_theta
     return opt_theta
-
-
-    
-
-
